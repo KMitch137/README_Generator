@@ -5,15 +5,15 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    {
+     {
         type: 'input',
-        name: 'repoName',
-        message: 'What is you GitHub Repo Name?',
+        name: 'name',
+        message: 'What is your Name?',
     },
     {
         type: 'input',
-        name: 'projectTitle',
-        message: 'What is the title of you project?',
+        name: 'repoName',
+        message: 'What is the GitHub Repo Name?',
     },
     {
         type: 'input',

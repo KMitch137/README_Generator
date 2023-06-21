@@ -25,8 +25,9 @@ function generateMarkdown(data) {
   return ` 
 
 
-# ${data.projectTitle}  
-## ${data.repoName}  
+# **${data.repoName}**  
+### Created by:  
+### ${data.name}  
 _________________________
 ### Table of Contents
   - [Description](#description)
@@ -39,29 +40,44 @@ _________________________
 
 
 
-### Description:  
+## **Description:**  
 ${data.description}  
 
-### Installation Instructions:     
+
+## **Installation Instructions:**     
 ${data.install}  
   
-### How to use this program:  
+
+## **How to use this program:**  
 ${data.usage}  
 
-### Contributions:  
+
+## **Contributions:**  
 ${data.contributionGuidlines}  
 
-### Testing:  
+
+## **Testing:**  
 ${data.test}  
 
-### License:  
-${renderLicenseBadge(data.license)}
-${renderLicenseLink(data.license)}  
 
-### Questions:  
-[EMAIL: ](mailto:${data.email})
-[GitHub: ](https://github.com/${data.userName})
+## **License:**  
+${renderLicenseBadge(data.license)}
+
+
+
+To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+   
+![alt text](assets/images/screenshot.png)
+
+
+
+
+## Questions:  
+EMAIL: [${data.email}](mailto:${data.email})  
+GitHub: [${data.userName}](https://github.com/${data.userName})
   `;
 }
 
 module.exports = generateMarkdown;
+// ${renderLicenseLink(data.license)}  
