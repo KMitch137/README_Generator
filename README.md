@@ -40,11 +40,8 @@ There are no tests to run for this project.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 
-
-To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-   
-![alt text](assets/images/screenshot.png)
+## **Demo Video:**
+https://drive.google.com/file/d/1etRW5F3r8AFYuyrf6SoxBx8_ns3VnNS8/view
 
 
 

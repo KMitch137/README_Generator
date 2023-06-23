@@ -1,4 +1,4 @@
-
+// create the badge for the license chosen 
 function renderLicenseBadge(license) {
   switch (license) {
     case "Apache":
@@ -19,7 +19,7 @@ function renderLicenseBadge(license) {
 }
 
 
-
+// Create the md file here
 function generateMarkdown(data) {
   return ` 
 
